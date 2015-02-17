@@ -1,6 +1,6 @@
 ==================================================================
 Getting and Cleaning Data - Course Project
-Version 1.0
+Version 2.0
 ==================================================================
 
 The course requires us to prepare a tidy data set from the raw data provided to us. The purpose of this project is to demonstrate our ability to collect, 
