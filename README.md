@@ -32,9 +32,18 @@ The repository includes the following files:
 
 - tidy_data.txt: it is the final tidy data set - output of Step 5.
 
+Creating the tidy data set: 
+===========================
+
+1. Navigate to your working directory.
+2. Unzip compressed raw data (getdata-projectfiles-UCI HAR Dataset.zip) in your working directory. The working directory should have the folder 'UCI HAR Dataset' 
+   containing the raw data.
+3. You need 'plyr' package to run the script successfully. If the package is not available, do the following steps:
+	- run: install.packages("plyr")
+	- run: library(plyr)
+4. Source run_analysis.R: source('run_analysis.R')
+5. The script will generate the final tidy data set 'tidy_data.txt'. You will find this file in the working directory.
 
 Assumption: 
 ===========
 - The run_analysis script assumes that all the data is present in the working directory, un-compressed, and names un-altered.
-- Hence I have extracted the raw dataset (.zip file) in the working directory. So the working directory has the extracted data in the folder - 'UCI HAR Dataset'
-
